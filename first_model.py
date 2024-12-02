@@ -16,5 +16,6 @@ model.fit(x,y,batch_size=1,epochs=500)
 # testing the model
 x_input = tf.constant([50,30,200],dtype=float)
 y_predict = model.predict(x_input)
-y_predict
 
+print(y_predict)
+ 
